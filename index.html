@@ -7,14 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Магазин цветов</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap"
+        rel="stylesheet">
 </head>
 
 
 <body>
     <header class="page-header">
         <nav class="main-nav">
-            <a href="#"><img src="IMG/OBJECTS.png" alt="logo" width="100" height="32"></a>
-            <ul>
+            <a href="#"><img class="img-center" src="IMG/OBJECTS.png" alt="logo" width="100" height="32"></a>
+            <ul class="container text-montserat">
                 <li><a href="#">Каталог</a></li>
                 <li><a href="#">Доставка и оплата</a></li>
                 <li><a href="#">Отзывы</a></li>
@@ -25,43 +32,53 @@
         </nav>
     </header>
 
-    <main class="main-page">
+    <main class="main-page container">
         <section class="intro">
-            <h1>Авторские букеты
-                в Петербурге</h1>
-            <p>Оригинальные свежие букеты
-                с доставкой по всему городу</p>
-            <img src="IMG/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.jpg" alt="Цветы"
-                width="386" height="404">
-            <img src="IMG/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.jpg" alt="Девушка с цветами" width="387"
-                height="420">
-            <a href="#" class="button">Смотреть каталог</a>
-
-            <dl>
-                <div>
-                    <img src="img/Group 9.svg" alt="Доставка" width="82" height="52">
-                    <dt>Быстрая доставка</dt>
-                    <dd>Можем собрать букет и передать его в доставку всего за час.</dd>
+            <div class="top-container">
+                <div class="top-info">
+                    <h1 class="top-heading text-disney">Авторские букеты
+                        <span class="italic">в Петербурге</span>
+                    </h1>
+                    <p class="text-montserat intro-text">Оригинальные свежие букеты
+                        с доставкой по всему городу</p>
+                    <a href="#" class="button text-montserat">Смотреть каталог</a>
                 </div>
+
+                <div class="top-img">
+                    <img class="top-img-1"
+                        src="img/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash 1.jpg" alt="Цветы"
+                        width="386" height="404">
+                    <img src="IMG/taisiia-shestopal-JZDyFwGAEqY-unsplash 1.jpg" alt="Девушка с цветами" width="387"
+                        height="420">
+                </div>
+            </div>
+
+            <dl class="dl-container text-montserat">
+                <img class="dl-img" src="img/Group 9.svg" alt="Доставка" width="82" height="52">
+                <div class="dt-dd">
+                    <dt class="dt-heading">Быстрая доставка</dt>
+                    <dd class="dd-text">Можем собрать букет и передать его в доставку всего за час.</dd>
+                </div>
+                <img class="dl-img-1" src="img/bouquet 1.svg" alt="Значок цветов" width="52" height="52">
                 <div>
-                    <img src="img/bouquet 1.svg" alt="Значок цветов" width="52" height="52">
-                    <dt>Всегда свежие цветы</dt>
-                    <dd>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.
+                    <dt class="dt-heading">Всегда свежие цветы</dt>
+                    <dd class="dd-text">Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов
+                        каждый цветок.
                     </dd>
                 </div>
+                <img class="dl-img" src="img/Group (1).svg" alt="Фотоаппарат" width="58.6" height="52">
                 <div>
-                    <img src="img/Group (1).svg" alt="Фотоаппарат" width="58.6" height="52">
-                    <dt>Отправляем фото цветов</dt>
-                    <dd>Перед доставкой сделаем фотографию букета и отправим вам.</dd>
+                    <dt class="dt-heading">Отправляем фото цветов</dt>
+                    <dd class="dd-text">Перед доставкой сделаем фотографию букета и отправим вам.</dd>
                 </div>
             </dl>
         </section>
 
         <section class="popular">
-            <h2>Популярные букеты</h2>
+            <h2 class="text-disney popular-heading">Популярные букеты</h2>
             <div class="slider">
                 <div class="slider-item">
-                    <div class="slider-item-description">
+                    <div class="slider-item-description text-montserat">
                         <h3>Букет «Нежность»</h3>
                         <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
                         <p>30 × 40 см</p>

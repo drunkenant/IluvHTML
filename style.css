@@ -1,3 +1,141 @@
 .visually-hidden {
     display: none;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    border: 1px solid #AE7C78;
+    margin-top: 26px;
+    padding: 22px 120px;
+}
+
+a {
+    text-decoration: none;
+    color: #AE7C78;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-center {
+    padding-left: 600px;
+    
+}
+
+.text-disney {
+    font-family: Playfair Display;
+    color: #AE7C78;
+    font-size: 36px;
+}
+
+.text-montserat {
+    font-family: Montserrat;
+    color: #AE7C78;
+    font-size: 16px;
+}
+
+.intro-text {
+    font-size: 24px;
+    line-height: 29px;
+    width: 384px;
+    padding-bottom: 64px;
+}
+
+.top-heading {
+    width: 384px;
+    font-size: 44px;
+line-height: 59px;
+font-weight: normal;
+
+}
+
+.italic {
+font-style: italic;
+}
+
+.top-info {
+    margin-right: 23px;
+}
+
+.top-container {
+    display: flex;
+    margin-top: 81px;
+}
+
+.button {
+color: white;
+background: #D89999;
+border-radius: 40px;
+width: 285px;
+padding: 30px 69px 30px 70px;
+}
+
+.dl-container {
+    display: flex;
+    margin-top: 48px;
+    
+}
+
+.dl-img {
+    margin-right: 20px;
+}
+
+.dl-img-1 {
+    margin-right: 29px;
+    margin-left: 58px;
+}
+
+
+
+.dt-heading {
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+
+.dd-text {
+    margin: 0 auto;
+}
+
+.popular {
+    margin-top: 80px;
+}
+
+.popular-heading {
+    text-align: center;
+    font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+}
+
+.slider {
+    margin-top: 63px;
+}
+
+.slider-item {
+display: flex;
+justify-content: center;
+}
+
+.slider-item-description {
+    width: 387px;
+    margin-right: 20px;
+}
