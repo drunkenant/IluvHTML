@@ -49,6 +49,9 @@ ul {
     font-family: Montserrat;
     color: #AE7C78;
     font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .intro-text {
@@ -138,4 +141,80 @@ justify-content: center;
 .slider-item-description {
     width: 387px;
     margin-right: 20px;
+}
+
+.popular-heading-2 {
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+}
+
+.popular-price {
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 64px;
+}
+
+.popular-link {
+    color: #FFFFFF;
+    width: 285px;
+    padding: 30px 107px 30px 105px;
+    background: #D89999;
+    border-radius: 40px;    
+}
+
+.slider-controls {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.catalog-preview {
+    margin-top: 80px;
+}
+
+.catalog-container {
+    display: flex;
+}
+
+.link-img-1 {
+    background: url("img/sammi-sP5CaWEN7Do-unsplash\ 1.jpg");
+border-radius: 10px;
+width: 387px;
+height: 442px;
+margin-right: 19px;
+}
+
+.link-img-2 {
+    background: url("img/fresh-beautiful-peony-flowers-vase\ 1.jpg");
+    border-radius: 10px;
+    width: 387px;
+    height: 442px;
+    margin-right: 19px;
+}
+
+.link-img-3 {
+    background: url("img/alyssa-strohmann-tnpr-hPOta0-unsplash\ 1.jpg");
+    border-radius: 10px;
+width: 387px;
+height: 442px;
+}
+
+.catalog-heading {
+    font-weight: bold;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 8px;
+margin-top: 183px;
+}
+
+.catalog-text {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.discount {
+    margin-top: 80px;
 }
