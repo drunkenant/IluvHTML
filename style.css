@@ -162,8 +162,10 @@ margin-bottom: 64px;
     padding: 30px 107px 30px 105px;
     background: #D89999;
     border-radius: 40px;    
-}
 
+.button {
+    display: none;
+}
 .slider-controls {
     text-align: center;
     margin-top: 24px;
@@ -199,6 +201,7 @@ margin-right: 19px;
 width: 387px;
 height: 442px;
 }
+
 
 .catalog-heading {
     font-weight: bold;
