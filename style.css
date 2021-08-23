@@ -224,4 +224,51 @@ margin-top: 183px;
 
 .discount {
     margin-top: 80px;
+    display: flex;
+}
+
+.discount-text {
+    background: #AE7C78;
+    width: 1200px;
+}
+
+.discount-heading {
+    font-size: 44px;
+line-height: 59px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+width: 488px;
+font-weight: normal;
+padding-top: 20px;
+padding-left: 102px;
+font-style: normal;
+margin-bottom: 24px;
+}
+
+.discount-info {
+    width: 387px;
+    font-size: 24px;
+line-height: 29px;
+padding-left: 102px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: normal;
+}
+
+.order-steps {
+    margin-top: 80px;
+}
+
+.order-steps-text {
+padding-left: 365px;
+    font-style: normal;
+font-weight: bold;
+line-height: 48px;
+width: 509px;
+letter-spacing: 0.02em;
+}
+
+.order-steps-container {
+    display: flex;
+    margin-top: 36px;
 }
