@@ -163,10 +163,10 @@ margin-bottom: 64px;
     background: #D89999;
     border-radius: 40px;    
 
-.button {
-    display: none;
 }
-.slider-controls {
+display: none;
+.button {
+    .slider-controls {
     text-align: center;
     margin-top: 24px;
 }
