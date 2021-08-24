@@ -223,4 +223,67 @@ margin-top: 183px;
 
 .discount {
     margin-top: 80px;
+    display: flex;
 }
+
+.discount-info {
+    background: #AE7C78;
+    width: 1200px;
+}
+
+.discount-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    width: 448px;
+    color: #FFFFFF;
+    padding-left: 102px;
+}
+
+.discount-text {
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+width: 387px;
+color: #FFFFFF;
+padding-left: 102px;
+}
+
+.order-steps {
+    margin-top: 80px;
+}
+
+.order-steps-heading {
+    margin-left: 345px;
+    width: 509px;
+    line-height: 48px;
+font-weight: bold;
+letter-spacing: 0.02em;
+}
+
+.order-steps-container {
+    display: flex;
+    margin-top: 37px;
+}
+
+.order-steps-card {
+    text-align: center;
+}
+
+.order-steps-heading2 {
+    font-weight: 500;
+}
+
+.news {
+    margin-top: 80px;
+    display: flex;
+}
+
+.info-img {
+    display: flex;
+}
+
+.
