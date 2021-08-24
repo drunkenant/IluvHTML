@@ -356,6 +356,42 @@ padding-left: 524px;
     background-image: url("img/map.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-
 height: 641px;
+position: relative;
+}
+
+.contacts-container {
+    padding-top: 52px;
+    padding-left: 222px;
+}
+
+
+
+.page-footer {
+    background: #AE7C78;
+ 
+}
+
+.footer-logo {
+    padding-top: 30px;
+text-align: center;    
+}
+
+.ul-color a {
+color: #FFFFFF;
+}
+
+.ul-color {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-nets {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 1045px;
+}
+
+.ul-nets li {
+    margin-right: 20px;
 }
