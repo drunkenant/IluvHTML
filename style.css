@@ -335,5 +335,27 @@ font-weight: bold;
 text-align: center;
 letter-spacing: 0.02em;
 width: 152px;
+padding-left: 524px;
+}
 
+.blockquote-container {
+    display: flex;
+    margin-top: 41px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.cite-text {
+    font-weight: bold;
+    margin-top: 16px;
+    padding-bottom: 63px;
+}
+
+.contacts {
+    margin-top: 80px;
+    background-image: url("img/map.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+height: 641px;
 }
