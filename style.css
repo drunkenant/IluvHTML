@@ -34,7 +34,7 @@ ul {
 .main-nav ul {
    display: grid;
    grid-template-columns: 168px 255px 127px 162px 249px 157px auto;
-padding: 16px 102px; 
+padding: 22px 102px; 
 }
 .header-eg {
     grid-column-end: 4;
@@ -47,7 +47,7 @@ padding: 16px 102px;
 .img-center {
     position: absolute;
     margin-left: 710px;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .text-disney {
@@ -91,6 +91,7 @@ font-style: italic;
 .top-container {
     display: flex;
     margin-top: 81px;
+    margin-right: 23px;
 }
 
 .button {
@@ -101,9 +102,17 @@ width: 285px;
 padding: 30px 69px 30px 70px;
 }
 
+.top-img-1 {
+    margin-right: 20px;
+    margin-top: 59px;
+}
+
+.top-img-2 {
+    margin-top: 1px;
+}
 .dl-container {
     display: flex;
-    margin-top: 48px;
+    margin-top: 90px;
     
 }
 
