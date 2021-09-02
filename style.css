@@ -16,7 +16,6 @@ body {
 .page-header {
     border: 1px solid #AE7C78;
     margin-top: 26px;
-    padding: 22px 120px;
 }
 
 a {
@@ -28,15 +27,24 @@ ul {
     list-style-type: none;
 }
 
-.main-nav ul {
-    display: flex;
-    justify-content: space-around;
 
+.main-nav ul {
+   display: grid;
+   grid-template-columns: 168px 255px 127px 162px 249px 157px auto;
+padding: 16px 102px; 
+}
+.header-eg {
+    grid-column-end: 4;
+}
+
+.header-sg {
+    grid-column-start: 5;
 }
 
 .img-center {
-    padding-left: 600px;
-    
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 10px;
 }
 
 .text-disney {
