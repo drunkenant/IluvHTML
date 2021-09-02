@@ -269,21 +269,12 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 width: 488px;
 font-weight: normal;
-padding-top: 20px;
+padding-top: 40px;
 padding-left: 102px;
 font-style: normal;
 margin-bottom: 24px;
 }
 
-.discount-info {
-    width: 387px;
-    font-size: 24px;
-line-height: 29px;
-padding-left: 102px;
-color: #FFFFFF;
-font-style: normal;
-font-weight: normal;
-}
 
 .discount-text {
     font-style: normal;
@@ -328,25 +319,24 @@ letter-spacing: 0.02em;
 
 .news-info {
 padding-top: 70px;
-
+margin-right: 21px;
 }
 
 .info-img {
-    display: flex;
+    display: grid;
+    grid-template-columns: 285px 387px;
+    grid-template-rows: 220px 220px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .info-img-1 {
-   flex-shrink: 50%;
+padding-bottom: 20px;
 }
 
-.info-img-2 {
-    align-self: flex-end;
-
-
-}
 .ul-container {
     display: flex;
-  
+  margin-top: 40px;
 }
 
 .ul-container li {
