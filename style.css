@@ -167,6 +167,11 @@ justify-content: center;
     font-weight: 500;
 font-size: 24px;
 line-height: 29px;
+margin-bottom: 20px;
+}
+
+.text-price {
+    margin-bottom: 24px;
 }
 
 .popular-price {
@@ -187,6 +192,10 @@ margin-bottom: 64px;
 .slider-button {
     border: none;
     background-color: #FFFFFF;
+}
+
+.slider-button-1 {
+    margin-right: 20px;
 }
 
 .slider-controls {
@@ -369,10 +378,9 @@ font-weight: bold;
 text-align: center;
 letter-spacing: 0.02em;
 width: 152px;
-text-align: center;
-padding-left: 480px;
-padding-top: 40px;
-
+margin-left: 524px;
+margin-bottom: 40px;
+margin-top: 40px;
 }
 
 .blockquote-container {
@@ -381,34 +389,15 @@ padding-top: 40px;
     justify-content: space-around;
     padding-left: 44px;
 padding-right: 44px;
-padding-bottom: ;
+padding-bottom: 64px;
+
 }
-
-
-.blockquote-1 {
-    margin-top: 41px;
-    margin-bottom: 16px;
-}
-
-.blockquote-2 {
-    margin-top: 40px;
-    
-}
-
 
 .cite-text {
     font-weight: bold;
-margin-top: 16px;
 }
 
-.contacts {
-    margin-top: 80px;
-    background-image: url("img/map.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-height: 641px;
 
-}
 
 .contacts-container {
     padding-top: 52px;
@@ -422,6 +411,7 @@ box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
 border-radius: 12px;
 width: 386px;
 margin-top: 129px;
+position: absolute;
 }
 
 .contacts-heading {
