@@ -397,7 +397,10 @@ padding-bottom: 64px;
     font-weight: bold;
 }
 
-
+.img-f {
+    position: absolute;
+    margin-top: 80px;
+}
 
 .contacts-container {
     padding-top: 52px;
@@ -410,8 +413,9 @@ padding-bottom: 64px;
 box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
 border-radius: 12px;
 width: 386px;
-margin-top: 129px;
-position: absolute;
+position: relative;
+margin-left: 222px;
+margin-top: 52px;
 }
 
 .contacts-heading {
@@ -426,7 +430,8 @@ position: absolute;
 
 .page-footer {
     background: #AE7C78;
- 
+ position: relative;
+ margin-top: 376px;
 }
 
 .footer-logo {
@@ -438,17 +443,12 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.ul-color {
+.contact-flex {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
-.ul-nets {
+.foot-flex {
     display: flex;
-    justify-content: flex-end;
-    padding-left: 1045px;
-}
-
-.ul-nets li {
-    margin-right: 20px;
+    
 }
