@@ -46,7 +46,7 @@ padding: 22px 102px;
 
 .img-center {
     position: absolute;
-    margin-left: 710px;
+    margin-left: 900px;
     margin-top: 16px;
 }
 
@@ -125,7 +125,9 @@ padding: 30px 69px 30px 70px;
     margin-left: 58px;
 }
 
-
+.dl-img-3 {
+    margin-left: 20px;
+}
 
 .dt-heading {
     font-weight: 500;
@@ -415,7 +417,8 @@ border-radius: 12px;
 width: 386px;
 position: relative;
 margin-left: 222px;
-margin-top: 52px;
+margin-top: 132px;
+padding: 40px 108px 65px 35px;
 }
 
 .contacts-heading {
@@ -423,8 +426,23 @@ margin-top: 52px;
     font-weight: bold;
 }
 
+.text-1 {
+    margin-top: 42px;
+}
+
+.text-2 {
+    margin-bottom: 13px;
+}
+
+.text-3 {
+    margin-top: 34px;
+    margin-bottom: 17px;
+}
+
 .contacts-text {
     font-weight: 500;
+    margin-top: 21px;
+    margin-bottom: 32px;
 }
 
 
