@@ -31,9 +31,14 @@ ul {
     list-style-type: none;
 }
 
-.main-nav ul {
-    display: flex;
-    justify-content: space-around;
+.header-grid {
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 125px 125px 125px 125px;
+    min-width: max-content;
+}
+
+.nav-element-1 {
 
 }
 
