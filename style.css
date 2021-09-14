@@ -46,7 +46,7 @@ padding: 22px 102px;
 
 .img-center {
     position: absolute;
-    margin-left: 900px;
+    margin-left: 715px;
     margin-top: 16px;
 }
 
@@ -449,24 +449,38 @@ padding: 40px 108px 65px 35px;
 .page-footer {
     background: #AE7C78;
  position: relative;
+ margin-top: 46px;
+}
+
+.footer-container {
+display: flex;
 
 }
 
 .footer-logo {
-    padding-top: 30px;
-  
+    padding-top: 24px;
+  padding-bottom: 41px;
+  margin-left: 73px;
+  margin-right: 73px;
+}
+
+.ul-color {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 42px;
+} 
+
+.ul-nets {
+    display: flex;
+    margin-top: 30px;
+}
+
+.ul-nets a {
+    margin-right: 13px;
 }
 
 .ul-color a {
 color: #FFFFFF;
+margin-right: 68px;
 }
 
-.contact-flex {
-
-
-}
-
-.foot-flex {
-
-    
-}
