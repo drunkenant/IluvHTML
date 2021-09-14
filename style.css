@@ -449,12 +449,12 @@ padding: 40px 108px 65px 35px;
 .page-footer {
     background: #AE7C78;
  position: relative;
- margin-top: 376px;
+
 }
 
 .footer-logo {
     padding-top: 30px;
-text-align: center;    
+  
 }
 
 .ul-color a {
@@ -462,11 +462,11 @@ color: #FFFFFF;
 }
 
 .contact-flex {
-    display: flex;
-    flex-direction: row;
+
+
 }
 
 .foot-flex {
-    display: flex;
+
     
 }
